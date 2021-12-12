@@ -28,4 +28,5 @@ functionality:
 The teacher can add a new student with a unique full name to the list, create a new project and assign student to one of the groups
  inside of the project, projects can not have the same name, the number of groups in the project and the maximum ammount of students
 in the group need to be provided while creating a new project. if the student is deleted by the teacher he is automatically removed
-from the project, if he is assign to one.
+from the project, if he is assign to one. The front-end park can be found in resources/views/welcome.blade.php, back-end can be found 
+in app/Http/Controllers/HomeController.php and models for both tables in the database: app/Models/Projects.php and app/Models/Students.php
