@@ -1,4 +1,4 @@
-I chose laravel to be the framework for this task, back-end is writen in php, front-end in html, and JavaScript for some functionality.
+# I chose laravel to be the framework for this task, back-end is writen in php, front-end in html, and JavaScript for some functionality.
 All the data is stored inside of a database, table "students" holds all the information about the students and table "projects" holds
 the information about the projects. The tables were created using laravels migrations, they can be seen inside database/migrations file,
 (to execute the migrations: inside the command prompt, navigate to the project folder and execute "php artisan migrate" command, first
